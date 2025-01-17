@@ -1,0 +1,21 @@
+div{
+    border: 2px solid red;
+    padding: 100px;
+}
+p{
+   margin: 10px 10px;
+   
+}
+p::before{
+    content: "✈️";
+    display: flex;
+   margin: 10px;
+}
+p::after{
+    content: "✈️";
+    display: flex;
+}
+p::selection{
+    background-color: green;
+    color: orangered;
+}
